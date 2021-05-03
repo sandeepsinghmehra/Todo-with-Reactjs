@@ -1,0 +1,30 @@
+.appHeader{
+    background-color: rgb(104, 73, 33);
+}
+
+ul{
+    display: grid;
+    grid-column-gap:10px;
+    grid-template-areas: 'LogoItem HeaderItem';
+    grid-template-columns: auto auto;
+}
+
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.HeaderItem{
+    display: grid;
+    color:white;
+    margin:10px;
+}
+.LogoItem{
+    margin: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: large;
+    color: orange;
+    
+}
